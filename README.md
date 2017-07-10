@@ -6,7 +6,7 @@ This guide hopes to secure your PrestaShop shopping cart using [*Plesk Onyx*](ht
 You should not use our tag releases until we reach 1.0 Feel free to fork and contribute, though.
 
 ## What Does Work
-The SSL Security seems to be stable. OCSP Stapling, Forward Secrecy, SSL Session Cache, HSTS. When you install an SSL certificate, in the Certificate Authority Box, you must paste both the intermediate and the root certificate for this to work. And, make it the certificate that is used to encrypt your vps/dedicated as well as default and used for webmail. Here is an example of **GlobalSign AlphaSSL CA + GlobalSign Root CA**
+The SSL Security seems to be stable. OCSP Stapling, Forward Secrecy, SSL Session Cache, HSTS. When you install an [**SSL certificate**](https://www.globalsign.com/en/ssl/#ssl-slide-2), in the Certificate Authority Box, you must paste both the intermediate and the root certificate for this to work. And, make it the certificate that is used to encrypt your vps/dedicated as well as default and used for webmail. Here is an example of **GlobalSign AlphaSSL CA + GlobalSign Root CA**
 ```
 -----BEGIN CERTIFICATE-----
 MIIETTCCAzWgAwIBAgILBAAAAAABRE7wNjEwDQYJKoZIhvcNAQELBQAwVzELMAkG
