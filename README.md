@@ -76,6 +76,8 @@ ssl_protocols TLSv1.1 TLSv1.2;
 And, that's all you need to edit in `/etc/nginx/conf.d/ssl.conf`.
 
 ## Installing Custom Plesk Admin Templates
+Read more about [**Plesk Template Structure**](https://docs.plesk.com/en-US/onyx/advanced-administration-guide-linux/appendix-b-configuration-templates-structure.68820/ "Plesk Admin Templates")
+
 Copy the `/opt/psa/admin/conf/templates/custom/` and all its files and folders to the same location. In most FTP software, just drag the **custom** folder icon over to `/opt/psa/admin/conf/templates/`. Then, run the command:
 ```
 /opt/psa/admin/bin/httpdmng --reconfigure-all
